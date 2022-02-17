@@ -1,0 +1,117 @@
+.yourCartLeft {
+    width: 50%;
+    height: 100%;
+}
+
+.yourCartLeft .yourCartLeftText {
+    width: 100%;
+    height: 75px;
+    font-size: 30px;
+    font-weight: 500;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.yourCartLeft .yourCartLeftItems {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(132, 168, 117);
+}
+
+.yourCartLeft .yourCartLeftItems .yourCartLeftItemsimg {
+    width: 30%;
+    height: 80%;
+}
+
+.yourCartLeft .yourCartLeftItems .yourCartLeftItemsimg img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.yourCartLeft .yourCartLeftItems .yourCartLeftItemsinfo {
+
+    width: 70%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+
+}
+
+.yourCartLeft .yourCartLeftItems .yourCartLeftItemsinfo .yourCartLeftItemsinfoTop {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.yourCartLeft .yourCartLeftItems .yourCartLeftItemsinfo .yourCartLeftItemsinfoTop p {
+    font-size: 17px;
+    padding-left: 10px;
+}
+
+.yourCartLeft .yourCartLeftItems .yourCartLeftItemsinfo .yourCartLeftItemsinfoTop .yourCartLeftItemsinfoTopTitle {
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+}
+
+.yourCartLeft .yourCartLeftItems .yourCartLeftItemsinfo .yourCartLeftItemsinfoBottom {
+    width: 100%;
+    height: 30%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.yourCartLeft .yourCartLeftItems .yourCartLeftItemsinfo .yourCartLeftItemsinfoBottom p:nth-child(1){
+    padding-left: 10px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.yourCartLeft .yourCartLeftItems .yourCartLeftItemsinfo .yourCartLeftItemsinfoBottom p:nth-child(2){
+    padding-right: 10px;
+    font-size: 17px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.yourCartLeft .nothingtoShow {
+background-color: rgb(132, 168, 117);
+width: 50%;
+text-align: center;
+padding:10px 15px;
+color: white;
+font-size: 20px;
+border-radius: 25px;
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .yourCartLeft { 
+
+        width: 100%;
+
+    }
+
+    .yourCartLeft .yourCartLeftText {
+        justify-content: center;
+    }
+
+    .yourCartLeft .nothingtoShow  {
+        width: 90%;
+        margin-left: 8px;
+    }
+
+}

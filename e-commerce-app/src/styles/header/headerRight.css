@@ -1,0 +1,23 @@
+.headerRight {
+    width: 15%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.headerRight a {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.countProduct {
+    position: relative;
+}
+
+
+@media screen and (max-width: 600px) {
+    .headerRight {
+        width: 100%
+    }
+  }

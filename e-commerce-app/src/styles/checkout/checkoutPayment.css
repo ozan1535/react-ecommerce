@@ -1,0 +1,147 @@
+.checkoutPayment {
+    width: 100%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.checkoutPayment .checkoutPaymentTop {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+
+}
+
+.checkoutPayment .checkoutPaymentTop p {
+    font-size: 25px;
+}
+
+.checkoutPayment .checkoutPaymentTop div {
+    font-size: 17px;
+    position: relative;
+}
+
+.checkoutPayment .checkoutPaymentTop div span {
+    position: relative;
+}
+
+.checkoutPayment .checkoutPaymentTop div .textBold {
+    font-weight: 700;
+    color: rgb(132, 168, 117);
+}
+
+.checkoutPayment .checkoutPaymentTop div .textLine {
+    padding: 0 50px;
+    margin: 10px;
+    border-bottom: 2px solid rgb(132, 168, 117);
+    
+}
+
+.checkoutPayment form {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.checkoutPayment form .checkoutPaymentMiddle {
+    width: 100%;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.checkoutPayment form .checkoutPaymentMiddle .paymentPhotos {
+    width: 100%;
+    height: 50px;
+    display: flex;
+}
+
+.checkoutPayment form .checkoutPaymentMiddle .paymentPhotosImages {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkoutPayment form .checkoutPaymentMiddle .paymentPhotosImages .paymentPhotosImg {
+    width: 30%;
+    height: 80%;
+}
+
+.checkoutPayment form .checkoutPaymentMiddle .paymentPhotosImages .paymentPhotosImg:nth-child(1) {
+    border: 1px solid #1D4D90;
+    padding: 5px 40px;
+}
+
+.checkoutPayment form .checkoutPaymentMiddle .paymentPhotosImages .paymentPhotosImg:nth-child(2) {
+   background-color: rgb(0, 0, 0);
+    padding: 5px 40px;
+}
+
+.checkoutPayment form .checkoutPaymentMiddle .paymentPhotosImages .paymentPhotosImg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.checkoutPayment form .checkoutPaymentMiddle p {
+    height: 60px;
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.checkoutPayment form .checkoutPaymentMiddle .paymentDetails .paymentCardInfo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.checkoutPayment form .checkoutPaymentMiddle .paymentDetails .paymentCardInfo input {
+    width: 80%;
+    height: 40px;
+    margin-bottom: 10px;
+    text-indent: 10px;
+    outline-color: rgb(132, 168, 117);
+}
+
+.checkoutPayment form .checkoutPaymentMiddle .paymentDetails .paymentCardInfo .paymentCardDates {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkoutPayment form .checkoutPaymentMiddle .paymentDetails .paymentCardInfo .paymentCardDates input {
+    width: 32%;
+}
+
+.checkoutPayment .checkoutPaymentBottom {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.checkoutPayment .checkoutPaymentBottom button {
+    width: 80%;
+    padding: 10px 50px;
+    color: #fff;
+    border: none;
+    font-size: 17px;
+    background-color: rgb(132, 168, 117);
+    cursor: pointer;
+}
+
+

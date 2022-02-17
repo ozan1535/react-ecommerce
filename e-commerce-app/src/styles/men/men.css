@@ -1,0 +1,14 @@
+.men {
+    position: relative;
+    width: 100%;
+    min-height: 150vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.menProducts {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}

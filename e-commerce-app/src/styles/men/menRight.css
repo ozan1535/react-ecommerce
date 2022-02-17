@@ -1,0 +1,115 @@
+.menRight {
+    width: 80%;
+    min-height: 145vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.menRight .menRightCard {
+    width: 23%;
+    max-height: 600px;
+    border-radius: 5px;
+    background-color: rgb(236, 241, 241);
+}
+
+.menRight .menRightCard a {
+    text-decoration: none;
+    color: #000;
+}
+
+.menRight .menRightCard .menRightCardimg {
+    position: relative;
+    width: 100%;
+    height: 85%;
+    border-bottom: 3px solid rgb(132, 168, 117);
+    overflow: hidden;
+}
+
+.menRight .menRightCard .menRightCardimg .heartIcon {
+    position: absolute;
+    font-size: 25px;
+    left: 20px;
+    top: 20px;
+    cursor: pointer;
+    z-index: 999;
+}
+
+.menRight .menRightCard .menRightCardimg img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: 400ms;
+}
+
+.menRight .menRightCard .menRightCardimg img:hover {
+    transform: scale(1.2);
+}
+
+.menRight .menRightCard .menRightCardInfo {
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    text-align: center;
+}
+
+.menRight .menRightCard .menRightCardInfo .productPrice {
+    font-weight: bold;
+    color: rgb(132, 168, 117);
+    font-size: 20px;
+}
+
+.menRight .loadMore {
+    display: grid;
+    grid-column: 5 / 1;
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+
+.menRight .loadMore button {
+    position: relative;
+    background-color: transparent;
+    border: 1px solid rgb(132, 168, 117);
+    font-size: 20px;
+    padding: 15px 40px;
+    cursor: pointer;
+}
+
+.menRight .loadMore button::before {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgb(132, 168, 117);
+    z-index: -1;
+    transition: 300ms;
+}
+
+.menRight .loadMore button:hover:before {
+    width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+
+    .menRight {
+        width: 90%;
+    }
+
+    .menRight .menRightCard {
+    
+        width: 47%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+    }
+}

@@ -1,0 +1,33 @@
+.yourCart {
+    width: 100%;
+    min-height: 80vh;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.yourCart .yourCartContainer {
+    width: 80%;
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .yourCart {
+
+        min-height: 60vh;
+
+    }
+
+    .yourCart .yourCartContainer {
+        width: 90%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+}

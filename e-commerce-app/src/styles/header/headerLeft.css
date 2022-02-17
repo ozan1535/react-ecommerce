@@ -1,0 +1,36 @@
+.headerLeft {
+    width: 30%;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.headerLogo a {
+    width: 40%;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(132, 168, 117);
+}
+
+.headerMenu {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.headerMenu a {
+    text-decoration: none;
+    color: white;
+}
+
+.headerMenu a:hover {
+    color: rgb(132, 168, 117);
+}
+
+@media screen and (max-width: 600px) {
+    .headerLeft {
+        width: 100%
+    }
+  }

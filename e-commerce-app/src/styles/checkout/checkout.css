@@ -1,0 +1,14 @@
+.checkout {
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkout .checkoutContainer {
+    width: 80%;
+    min-height: 85vh;
+    display: flex;
+    justify-content: space-between;
+}
